@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/meirongdev/go121expl/toolchain/dep"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	dep.Hello()
 }
